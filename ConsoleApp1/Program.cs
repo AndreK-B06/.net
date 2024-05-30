@@ -25,7 +25,14 @@ int jeong3 = 98;
 int jeong4 = 100;
 int jeong5 = 97;
 
+//Variable to sum their scores
 int sophiaSum = 0;
 int nicolasSum = 0;
 int zahirahSum = 0;
 int jeongSum = 0;
+
+//statements that display the student name and the value of their summed assignment scores
+Console.WriteLine("Sophia: " + sophiaSum);
+Console.WriteLine("Nicolas: " + nicolasSum);
+Console.WriteLine("Zahirah: " + zahirahSum);
+Console.WriteLine("Jeing: " + jeongSum);
