@@ -35,4 +35,16 @@ int jeongSum = jeong1 + jeong2 + jeong3 + jeong4 + jeong5;
 Console.WriteLine("Sophia: " + sophiaSum);
 Console.WriteLine("Nicolas: " + nicolasSum);
 Console.WriteLine("Zahirah: " + zahirahSum);
-Console.WriteLine("Jeing: " + jeongSum);
+Console.WriteLine("Jeong: " + jeongSum);
+
+//students current scores
+decimal sophiaScore = nicolasSum / currentAssignments;
+decimal nicolasScore = nicolasSum / currentAssignments;
+decimal zahirahScore = zahirahSum / currentAssignments;
+decimal jeongScore = jeongSum / currentAssignments;
+
+//display the score variables
+Console.WriteLine("Sopjia: " + sophiaScore);
+Console.WriteLine("Nicolas: " + nicolasScore);
+Console.WriteLine("Zahirah: " + zahirahScore);
+Console.WriteLine("Jeong: " + jeongScore);
