@@ -32,10 +32,10 @@ int zahirahSum = zahirah1 + zahirah2 + zahirah3 + zahirah4 + zahirah5;
 int jeongSum = jeong1 + jeong2 + jeong3 + jeong4 + jeong5;
 
 //statements that display the student name and the value of their summed assignment scores
-Console.WriteLine("Sophia: " + sophiaSum);
-Console.WriteLine("Nicolas: " + nicolasSum);
-Console.WriteLine("Zahirah: " + zahirahSum);
-Console.WriteLine("Jeong: " + jeongSum);
+// Console.WriteLine("Sophia: " + sophiaSum);
+// Console.WriteLine("Nicolas: " + nicolasSum);
+// Console.WriteLine("Zahirah: " + zahirahSum);
+// Console.WriteLine("Jeong: " + jeongSum);
 
 //students current scores
 decimal sophiaScore = (decimal) sophiaSum / currentAssignments;
@@ -44,7 +44,8 @@ decimal zahirahScore = (decimal) zahirahSum / currentAssignments;
 decimal jeongScore = (decimal) jeongSum / currentAssignments;
 
 //display the score variables
-Console.WriteLine("Sophia: " + sophiaScore + " A");
-Console.WriteLine("Nicolas: " + nicolasScore + " B");
-Console.WriteLine("Zahirah: " + zahirahScore + " B");
-Console.WriteLine("Jeong: " + jeongScore + " A");
+Console.WriteLine("Student\t\tGrand\n");
+Console.WriteLine("Sophia:\t\t" + sophiaScore + "\tA");
+Console.WriteLine("Nicolas:\t" + nicolasScore + "\tB");
+Console.WriteLine("Zahirah:\t" + zahirahScore + "\tB");
+Console.WriteLine("Jeong:\t\t" + jeongScore + "\tA");
