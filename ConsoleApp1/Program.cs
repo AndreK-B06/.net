@@ -38,13 +38,13 @@ Console.WriteLine("Zahirah: " + zahirahSum);
 Console.WriteLine("Jeong: " + jeongSum);
 
 //students current scores
-decimal sophiaScore = nicolasSum / currentAssignments;
-decimal nicolasScore = nicolasSum / currentAssignments;
-decimal zahirahScore = zahirahSum / currentAssignments;
-decimal jeongScore = jeongSum / currentAssignments;
+decimal sophiaScore = (decimal) sophiaSum / currentAssignments;
+decimal nicolasScore = (decimal) nicolasSum / currentAssignments;
+decimal zahirahScore = (decimal) zahirahSum / currentAssignments;
+decimal jeongScore = (decimal) jeongSum / currentAssignments;
 
 //display the score variables
-Console.WriteLine("Sopjia: " + sophiaScore);
-Console.WriteLine("Nicolas: " + nicolasScore);
-Console.WriteLine("Zahirah: " + zahirahScore);
-Console.WriteLine("Jeong: " + jeongScore);
+Console.WriteLine("Sophia: " + sophiaScore + " A");
+Console.WriteLine("Nicolas: " + nicolasScore + " B");
+Console.WriteLine("Zahirah: " + zahirahScore + " B");
+Console.WriteLine("Jeong: " + jeongScore + " A");
