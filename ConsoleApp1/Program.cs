@@ -106,3 +106,10 @@ Console.WriteLine($"{course3Name}\t\t{curse3Grad}\t\t{course3Credit}");
 Console.WriteLine($"{course4Name}\t{curse4Grad}\t\t{course4Credit}");
 Console.WriteLine($"{course5Name}\t\t{curse5Grad}\t\t{course5Credit}\n");
 Console.WriteLine($"Final GPA: \t\t{leadingDigit}.{firstDigit}{SecondDigit}" );
+
+// Array
+string [] fraudulentOrderIDs  = new string[3];
+
+fraudulentOrderIDs[0] = "A123";
+fraudulentOrderIDs [1] = "B456";
+fraudulentOrderIDs [2] = "C789";
